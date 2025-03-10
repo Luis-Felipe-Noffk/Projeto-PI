@@ -1,0 +1,32 @@
+CREATE DATABASE hotel_pi;
+USE hotel_pi;
+
+CREATE TABLE hospede (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    cpf VARCHAR(14) UNIQUE NOT NULL,
+    telefone VARCHAR(20) NOT NULL
+);
+
+CREATE TABLE quarto (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    numero VARCHAR(10) UNIQUE NOT NULL,
+    tipo VARCHAR(50) NOT NULL,
+    diaria DOUBLE NOT NULL,
+    disponivel BOOLEAN DEFAULT TRUE
+);
+
+CREATE TABLE reserva (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    hospede_id INT NOT NULL,
+    telefoneHospede VARCHAR(20) NOT NULL,
+    quarto_id INT NOT NULL,
+    valorTotal DOUBLE NOT NULL,
+    checkIn DATE NOT NULL,
+    checkOut DATE NOT NULL,
+    FOREIGN KEY (hospede_id) REFERENCES hospede(id),
+    FOREIGN KEY (quarto_id) REFERENCES quarto(id)
+);
+
+
+
