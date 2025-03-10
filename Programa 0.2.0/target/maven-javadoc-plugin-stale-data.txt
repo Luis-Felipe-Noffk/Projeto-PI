@@ -1,0 +1,50 @@
+-J-Duser.language=
+-J-Duser.country=
+@options
+@packages
+-classpath
+'C:/Users/luisf/.m2/repository/org/netbeans/external/AbsoluteLayout/RELEASE130/AbsoluteLayout-RELEASE130.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'17'
+-sourcepath
+'C:/Users/luisf/OneDrive/Documentos/NetBeansProjects/PI_03/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2025. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/luisf/OneDrive/Documentos/NetBeansProjects/PI_03/target/reports/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'PI_03 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'PI_03 1.0-SNAPSHOT API'
+Projeto_Data
+Projeto_View
+C:\Users\luisf\.m2\repository\org\netbeans\external\AbsoluteLayout\RELEASE130\AbsoluteLayout-RELEASE130.jar = 1735320858421
+C:\Users\luisf\OneDrive\Documentos\NetBeansProjects\PI_03\src\main\java = 1738001923902
+C:\Users\luisf\OneDrive\Documentos\NetBeansProjects\PI_03\target\reports\apidocs\allclasses-index.html = 1738259766327
+C:\Users\luisf\OneDrive\Documentos\NetBeansProjects\PI_03\target\reports\apidocs\allpackages-index.html = 1738259766333
+C:\Users\luisf\OneDrive\Documentos\NetBeansProjects\PI_03\target\reports\apidocs\element-list = 1738259765344
+C:\Users\luisf\OneDrive\Documentos\NetBeansProjects\PI_03\target\reports\apidocs\help-doc.html = 1738259766598
+C:\Users\luisf\OneDrive\Documentos\NetBeansProjects\PI_03\target\reports\apidocs\index-all.html = 1738259766516
+C:\Users\luisf\OneDrive\Documentos\NetBeansProjects\PI_03\target\reports\apidocs\index.html = 1738259766246
+C:\Users\luisf\OneDrive\Documentos\NetBeansProjects\PI_03\target\reports\apidocs\jquery-ui.overrides.css = 1738259766785
+C:\Users\luisf\OneDrive\Documentos\NetBeansProjects\PI_03\target\reports\apidocs\member-search-index.js = 1738259766376
+C:\Users\luisf\OneDrive\Documentos\NetBeansProjects\PI_03\target\reports\apidocs\module-search-index.js = 1738259766337
+C:\Users\luisf\OneDrive\Documentos\NetBeansProjects\PI_03\target\reports\apidocs\overview-summary.html = 1738259766574
+C:\Users\luisf\OneDrive\Documentos\NetBeansProjects\PI_03\target\reports\apidocs\overview-tree.html = 1738259766233
+C:\Users\luisf\OneDrive\Documentos\NetBeansProjects\PI_03\target\reports\apidocs\package-search-index.js = 1738259766362
+C:\Users\luisf\OneDrive\Documentos\NetBeansProjects\PI_03\target\reports\apidocs\script.js = 1738259766612
+C:\Users\luisf\OneDrive\Documentos\NetBeansProjects\PI_03\target\reports\apidocs\search.js = 1738259766678
+C:\Users\luisf\OneDrive\Documentos\NetBeansProjects\PI_03\target\reports\apidocs\serialized-form.html = 1738259765921
+C:\Users\luisf\OneDrive\Documentos\NetBeansProjects\PI_03\target\reports\apidocs\stylesheet.css = 1738259766608
+C:\Users\luisf\OneDrive\Documentos\NetBeansProjects\PI_03\target\reports\apidocs\tag-search-index.js = 1738259766379
+C:\Users\luisf\OneDrive\Documentos\NetBeansProjects\PI_03\target\reports\apidocs\type-search-index.js = 1738259766373
