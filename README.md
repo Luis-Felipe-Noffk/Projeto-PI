@@ -4,20 +4,21 @@ Status: Pronto para entrega
 
 Tecnologias:
 
-  Diagrams (draw.io)
-  Figma
-  Apache NetBeans IDE 13 (Java)
-  MySQL Workbench 8.0 CE (Banco de Dados)
+  Diagrams (draw.io);
+  Figma;
+  Apache NetBeans IDE 13 (Java);
+  MySQL Workbench 8.0 CE (Banco de Dados);
 
 Desenvolvedores: 
 
-  Luis Felipe Noffk 
+  Luis Felipe Noffk;
   ...
   ...
 
 Objetivo:
 
-  O Sistema de Gerenciamento de Reservas de Hotel tem como objetivo automatizar e centralizar as operações relacionadas à administração de reservas, check-ins, check-outs e pagamento de diárias. 
+  O Sistema de Gerenciamento de Reservas de Hotel tem como objetivo automatizar e centralizar as operações relacionadas à administração de reservas, 
+  check-ins, check-outs e pagamento de   diárias. 
   O sistema busca otimizar o atendimento ao cliente, reduzir erros humanos e oferecer um controle mais eficiente para a gestão do hotel.
 
 Funcionalidades:
