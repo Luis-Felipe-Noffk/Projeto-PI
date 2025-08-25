@@ -5,6 +5,7 @@ import java.sql.*;
 import java.util.*;
 
 public class QuartoDAO {
+
     private final Connection conn;
 
     public QuartoDAO(Connection conn) {
@@ -15,8 +16,7 @@ public class QuartoDAO {
         List<Quarto> quartos = new ArrayList<>();
         String sql = "SELECT * FROM quarto";
 
-        try (PreparedStatement stmt = conn.prepareStatement(sql);
-             ResultSet rs = stmt.executeQuery()) {
+        try ( PreparedStatement stmt = conn.prepareStatement(sql);  ResultSet rs = stmt.executeQuery()) {
             while (rs.next()) {
                 Quarto quarto = new Quarto();
                 quarto.setId(rs.getInt("id"));
@@ -35,7 +35,7 @@ public class QuartoDAO {
 
     public void atualizarDisponibilidade(int quartoId, boolean disponivel) {
         String sql = "UPDATE quarto SET disponivel = ? WHERE id = ?";
-        try (PreparedStatement stmt = conn.prepareStatement(sql)) {
+        try ( PreparedStatement stmt = conn.prepareStatement(sql)) {
             stmt.setBoolean(1, disponivel);
             stmt.setInt(2, quartoId);
 
